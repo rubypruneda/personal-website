@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="keywords" content="Ruby's Personal Website">
+    <meta name="application-name" content="Ruby's Personal Website">
+    <meta name="description" content="The official website for Ruby Pruneda">
+    <meta name="author" content="Ruby Pruneda">
+
+    <meta property="og:image" content="./img/personal.svg">
+    <meta property="og:title" content="Ruby's Personal Website">
+    <meta property="og:description" content="The official website for Ruby Pruneda">
+    <meta property="og:type" content="website">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- ------------- Scroll -------------  -->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!-- ------------- Header -------------  -->
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+        <a href="#" class="nav__logo">RP</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Work / Services</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu-alt-right'></i>
+        </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!-- ------------- Home -------------  -->
+
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                
+                <div class="home__data">
+                    <span class="home__greeting">Hello, my name is</span>
+                    <h1 class="home__name">Ruby Pruneda</h1>
+                    <span class="home__profession">Software Developer</span>
+                </div>
+
+                <div class="home__img">
+                    <img src="./img/hello.svg" alt="Person at computer waving">
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- ------------- About -------------  -->
+
+        <section class="about section bd-container" id="about">
+
+            <h2 class="section-title">About me</h2>
+
+            <div class="about__container bd-grid">
+
+                <div class="about__data bd-grid">
+                    <p class="about__description"><span>I am a Software Developer <br> that loves to learn new things. I have experience in building websites from scratch, WordPress, Google Analytics, and SEO.</span></p>
+                    
+                    <div class="">
+                        <span class="about__number">03</span>
+                        <span class="about__achievement">years in the field</span>
+                    </div>
+                </div>
+                    
+                <img src="./img/code_inspection.svg" class="code__img" alt="Person looking at code">
+
+            </div>
+
+
+        </section>
+
+        <!-- ------------- Experience -------------  -->
+
+        <section class="experience section bd-container" id="experience">
+
+            <h2 class="section-title">My Experience</h2>
+
+            <div class="experience__container bd-grid">
+                <div class="experience__content">
+
+                    <div class="">
+                        <h3 class="experience__year">2019-Present</h3>
+                        <span class="experience__place">Oak Creek Management</span>
+                    </div>
+
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="">
+                        <h3 class="experience__job">Software Specialist</h3>
+                        <span class="experience__specialty">SEO Specialist</span>
+                    </div>
+
+                </div>
+
+                <div class="experience__content">
+
+                    <div class="">
+                        <h3 class="experience__year">2018-2019</h3>
+                        <span class="experience__place">Costco Wholesale</span>
+                    </div>
+
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="">
+                        <h3 class="experience__job">Software Developer</h3>
+                        <span class="experience__specialty">Frontend</span>
+                    </div>
+
+                </div>
+
+                <div class="experience__content">
+
+                    <div class="">
+                        <h3 class="experience__year">2018</h3>
+                        <span class="experience__place">DevMountain</span>
+                    </div>
+
+                    <div class="experience__time">
+                        <span class="experience__rounder"></span>
+                        <span class="experience__line"></span>
+                    </div>
+
+                    <div class="">
+                        <h3 class="experience__job">Student Developer</h3>
+                        <span class="experience__specialty">Fullstack</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+             <!-- ------------- Portfolio -------------  -->
+
+        <section class="portfolio section bd-container" id="services">
+            <!-- <span class="section-subtitle">Work / Services</span> -->
+            <h2 class="section-title">Work / Services</h2>
+            
+
+            <div class="portfolio__nav">
+                <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio__item" data-filter=".web">Web</span>
+                <span class="portfolio__item" data-filter=".services">Services</span>
+            </div>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__content mix web">
+                    <a><img src="./img/programming.svg" alt="Programmer" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Web Developement</span>
+                        <a><h2 class="portfolio__title">Current Site</h2></a>
+                        <span class="portfolio__subtitle">HTML <span>&#8212;</span> CSS <span>&#8212;</span> JS</span>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix web">
+                    <a href="https://oakcreekmanagement.netlify.app/" target="_blank"><img src="./img/oak-creek-logo.png" alt="Oak Creek Management logo" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Web Developement</span>
+                        <a><h2 class="portfolio__title">Oak Creek</h2></a>
+                        <a href="https://oakcreekmanagement.netlify.app/" target="_blank" class="button">View Site</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix web">
+                    <a href="https://www.saltygearsoffroad.com/" target="_blank"><img src="./img/SaltyGears-logo.jpg" alt="Salty Gears Off Road logo" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">WordPress</span>
+                        <a><h2 class="portfolio__title">Salty Gears Off Road</h2></a>
+                        <a href="https://saltygearsoffroad.com" target="_blank" class="button">View Site</a>
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix services">
+                    <a><img src="./img/web_developement.svg" alt="Web developement picture" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Service</span>
+                        <a><h2 class="portfolio__title">Web Developement</h2></a>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix services">
+                    <a><img src="./img/ga.svg" alt="Lady standing next to analytics" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Service</span>
+                        <a><h2 class="portfolio__title">Google Analytics</h2></a>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix services">
+                    <a><img src="./img/seo.svg" alt="Lady holding magnifying glass" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Service</span>
+                        <a><h2 class="portfolio__title">SEO</h2></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+             <!-- ------------- Contact -------------  -->
+
+        <section class="contact section bd-container" id="contact">
+            
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        
+                        <input type="email" placeholder="Email" class="contact__input">
+                        
+                    </div>
+                    
+
+                    <textarea name="" id="contact__message" cols="" rows="7" placeholder="Message" class="contact__input"></textarea>
+               
+
+                    <button type="submit" class="button contact__button">Send</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+     <!-- ------------- Footer -------------  -->
+
+    <footer class="footer section">
+
+        <div class="footer__container bd-container" id="footer"> 
+            <h1 class="footer__title">Ruby Pruneda</h1>
+            <p class="footer__description">I'm Ruby and this website was built using HTLM, CSS, and JavaScript. <br>Feel free to reach out with any questions.</p>
+            
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/rubypruneda/" target="_blank"  class="footer__link"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            
+            <p class="footer__copy">&#169; <script>document.write( new Date().getFullYear() );</script> Ruby Pruneda</p>
+        </div>
+
+    </footer>
+
+    <!-- ------------- Scripts -------------  -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

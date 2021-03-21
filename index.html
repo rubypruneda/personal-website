@@ -212,7 +212,6 @@
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Service</span>
                         <a><h2 class="portfolio__title">Web Developement</h2></a>
-                        
                     </div>
                 </div>
 
@@ -220,8 +219,7 @@
                     <a><img src="./img/ga.svg" alt="Lady standing next to analytics" class="portfolio__img"></a>
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Service</span>
-                        <a><h2 class="portfolio__title">Google Analytics</h2></a>
-                        
+                        <a><h2 class="portfolio__title">Google Analytics</h2></a>             
                     </div>
                 </div>
 
@@ -230,7 +228,6 @@
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Service</span>
                         <a><h2 class="portfolio__title">SEO</h2></a>
-                        
                     </div>
                 </div>
             </div>
@@ -244,21 +241,21 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <form action="" class="contact__form">
 
+                <form name="Rubys-website-contact" method="POST" data-netlify="true" class="contact__form">
+                        
                     <div class="contact__inputs">
-                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="text" placeholder="Name" class="contact__input" required>
                         
-                        <input type="email" placeholder="Email" class="contact__input">
-                        
+                        <input type="email" placeholder="Email" class="contact__input" required>
                     </div>
-                    
-
-                    <textarea name="" id="contact__message" cols="" rows="7" placeholder="Message" class="contact__input"></textarea>
-               
-
+    
+                    <textarea name="" id="contact__message" cols="" rows="7" placeholder="Message" class="contact__input" required></textarea>
+                
                     <button type="submit" class="button contact__button">Send</button>
+
                 </form>
+
             </div>
 
         </section>

@@ -132,14 +132,15 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-sr.reveal(`.about__data, .code__img, .experience__content, 
-           .contact__input`, {
+sr.reveal(`.about__data, .code__img, .experience__content`, {
     origin: 'top',
     interval: 200,
 })
 
-sr.reveal(`.home__data`, {
-    origin: 'left'
+sr.reveal(`.home__data, 
+.contact__input`, {
+    origin: 'left',
+    interval: 200,
 })
 
 sr.reveal(`.home__img`, {

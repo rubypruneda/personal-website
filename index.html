@@ -18,18 +18,14 @@
     <title>Ruby's Website</title>
 
     <link rel="shortcut icon" type="image/png" href="./img/nature.png">
-
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
 </head>
 <body>
 
     <!-- ------------- Scroll -------------  -->
 
     <a href="#" class="scrolltop" id="scroll-top">
-        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        <box-icon name='up-arrow-alt' class="scrolltop__icon" color="#535461"></box-icon>
     </a>
 
     <!-- ------------- Header -------------  -->
@@ -49,7 +45,7 @@
         </div>
 
         <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-menu-alt-right'></i>
+            <box-icon name='menu-alt-right' color="#535461" ></box-icon>
         </div>
 
         </nav>
@@ -181,53 +177,53 @@
 
             <div class="portfolio__container bd-grid">
                 <div class="portfolio__content mix web">
-                    <a><img src="./img/programming.svg" alt="Programmer" class="portfolio__img"></a>
+                    <img src="./img/programming.svg" alt="Programmer" class="portfolio__img">
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Web Developement</span>
-                        <a><h2 class="portfolio__title">Current Site</h2></a>
+                        <h2 class="portfolio__title">Current Site</h2>
                         <span class="portfolio__subtitle">HTML <span>&#8212;</span> CSS <span>&#8212;</span> JS</span>
                     </div>
                 </div>
 
                 <div class="portfolio__content mix web">
-                    <a href="https://oakcreekmanagement.netlify.app/" target="_blank"><img src="./img/oak-creek-logo.png" alt="Oak Creek Management logo" class="portfolio__img"></a>
+                    <a href="https://oakcreekmanagement.netlify.app/" target="_blank" rel="noopener"><img src="./img/oak-creek-logo.png" alt="Oak Creek Management logo" class="portfolio__img"></a>
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Web Developement</span>
-                        <a><h2 class="portfolio__title">Oak Creek</h2></a>
-                        <a href="https://oakcreekmanagement.netlify.app/" target="_blank" class="button">View Site</a>
+                        <h2 class="portfolio__title">Oak Creek</h2>
+                        <a href="https://oakcreekmanagement.netlify.app/" target="_blank" rel="noopener" class="button">View Site</a>
                     </div>
                 </div>
 
                 <div class="portfolio__content mix web">
-                    <a href="https://www.saltygearsoffroad.com/" target="_blank"><img src="./img/SaltyGears-logo.jpg" alt="Salty Gears Off Road logo" class="portfolio__img"></a>
+                    <a href="https://www.saltygearsoffroad.com/" target="_blank" rel="noopener"><img src="./img/SaltyGears-logo.jpg" alt="Salty Gears Off Road logo" class="portfolio__img"></a>
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">WordPress</span>
-                        <a><h2 class="portfolio__title">Salty Gears Off Road</h2></a>
-                        <a href="https://saltygearsoffroad.com" target="_blank" class="button">View Site</a>
+                        <h2 class="portfolio__title">Salty Gears Off Road</h2>
+                        <a href="https://saltygearsoffroad.com" target="_blank" rel="noopener" class="button">View Site</a>
                     </div>
                 </div>
 
                 <div class="portfolio__content mix services">
-                    <a><img src="./img/web_developement.svg" alt="Web developement picture" class="portfolio__img"></a>
+                    <img src="./img/web_developement.svg" alt="Web developement picture" class="portfolio__img">
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Service</span>
-                        <a><h2 class="portfolio__title">Web Developement</h2></a>
+                        <h2 class="portfolio__title">Web Developement</h2>
                     </div>
                 </div>
 
                 <div class="portfolio__content mix services">
-                    <a><img src="./img/ga.svg" alt="Lady standing next to analytics" class="portfolio__img"></a>
+                    <img src="./img/ga.svg" alt="Lady standing next to analytics" class="portfolio__img">
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Service</span>
-                        <a><h2 class="portfolio__title">Google Analytics</h2></a>             
+                        <h2 class="portfolio__title">Google Analytics</h2>           
                     </div>
                 </div>
 
                 <div class="portfolio__content mix services">
-                    <a><img src="./img/seo.svg" alt="Lady holding magnifying glass" class="portfolio__img"></a>
+                    <img src="./img/seo.svg" alt="Lady holding magnifying glass" class="portfolio__img">
                     <div class="portfolio__data">
                         <span class="portfolio__subtitle">Service</span>
-                        <a><h2 class="portfolio__title">SEO</h2></a>
+                        <h2 class="portfolio__title">SEO</h2>
                     </div>
                 </div>
             </div>
@@ -271,7 +267,7 @@
             <p class="footer__description">I'm Ruby and this website was built using HTLM, CSS, and JavaScript. <br>Feel free to reach out with any questions.</p>
             
             <div class="footer__social">
-                <a href="https://www.linkedin.com/in/rubypruneda/" target="_blank"  class="footer__link"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/rubypruneda/" target="_blank" rel="noopener" class="footer__link"><box-icon name='linkedin' type='logo' color="#ffe8d6"></box-icon></a>
             </div>
             
             <p class="footer__copy">&#169; <script>document.write( new Date().getFullYear() );</script> Ruby Pruneda</p>
@@ -284,5 +280,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/mixitup.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 </body>
 </html>

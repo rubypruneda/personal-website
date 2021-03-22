@@ -94,6 +94,14 @@ html {
 /* ------------- Variables Dark Theme ------------- */
 
 
+.gray { 
+    fill: red;
+}
+
+.tan {
+    color: var(--first-color-send) !important;
+}
+
 
 
 /* ------------- Buttons Dark/Light ------------- */

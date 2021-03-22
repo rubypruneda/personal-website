@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192746687-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192746687-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-192746687-1');
-    </script>
+    </script> -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +35,8 @@
     <!-- ------------- Scroll -------------  -->
 
     <a href="#" class="scrolltop" id="scroll-top">
-        <box-icon name='up-arrow-alt' class="scrolltop__icon" color="#535461"></box-icon>
+        <!-- <box-icon name='up-arrow-alt' class="scrolltop__icon" color="#535461"></box-icon> -->
+        <ion-icon  class= "arrow" name="arrow-up-outline"></ion-icon>
     </a>
 
     <!-- ------------- Header -------------  -->
@@ -55,7 +56,8 @@
         </div>
 
         <div class="nav__toggle" id="nav-toggle">
-            <box-icon name='menu-alt-right' color="#535461" ></box-icon>
+            <!-- <box-icon name='menu-alt-right' color="#535461" ></box-icon> -->
+            <ion-icon class="menu" name="menu-outline"></ion-icon>
         </div>
 
         </nav>
@@ -277,19 +279,20 @@
             <p class="footer__description">I'm Ruby and this website was built using HTLM, CSS, and JavaScript. <br>Feel free to reach out with any questions.</p>
             
             <div class="footer__social">
-                <a href="https://www.linkedin.com/in/rubypruneda/" target="_blank" rel="noopener" class="footer__link"><box-icon name='linkedin' type='logo' color="#ffe8d6"></box-icon></a>
+                <a href="https://www.linkedin.com/in/rubypruneda/" target="_blank" rel="noopener" class="footer__link" aria-label="LinkedIn"><ion-icon class="linkedin" name="logo-linkedin"></ion-icon></a>
             </div>
             
-            <p class="footer__copy">&#169; <script>document.write( new Date().getFullYear() );</script> Ruby Pruneda</p>
+            <p class="footer__copy">&#169; 2021 Ruby Pruneda</p>
         </div>
 
     </footer>
 
     <!-- ------------- Scripts -------------  -->
 
+    <!-- <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script> -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/mixitup.min.js"></script>
     <script src="./js/main.js"></script>
-    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>

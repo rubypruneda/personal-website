@@ -9,7 +9,7 @@
 
 
     --header-height: 3rem;
-    --first-color: #ff971d;
+    --first-color: #B35F00;
     --first-color-alt: #ff9f2e;
     --first-color-send: #ffe8d6;
     --first-color-send-hover: #ffcba3;
@@ -91,15 +91,24 @@ html {
 }
 
 
-/* ------------- Variables Dark Theme ------------- */
+/* ------------- icons ------------- */
 
 
-.gray { 
-    fill: red;
+
+
+.arrow {
+    color: #535461;
+    font-size: 25px;
 }
 
-.tan {
-    color: var(--first-color-send) !important;
+.menu {
+    color: #535461;
+    font-size: 1.6rem;
+    margin-top: 7px;
+}
+
+.linkedin {
+    font-size: 30px;
 }
 
 
@@ -556,11 +565,11 @@ img {
     margin-bottom: var(--mb-1);
 }
 
-.contact__input:focus
 
-.contact::placeholder {
-    /* color: var(--first-color); */
-}
+
+/* .contact::placeholder {
+    color: var(--first-color);
+} */
 
 .contact__form {
     text-align: center;

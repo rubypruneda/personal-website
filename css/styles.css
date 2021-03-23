@@ -535,6 +535,12 @@ img {
     font-weight: var(--font-semi-bold);
 }
 
+.oak-creek__img {
+    max-height: 200px;
+}
+
+
+
 
 
 /* ------------- Contact ------------- */
@@ -672,6 +678,10 @@ img {
         justify-self: center;
     }
 
+    .oak-creek__img {
+        max-height: 250px;
+    }
+
 }
 
 
@@ -741,6 +751,11 @@ img {
         padding-top: 0;
     }
 
+
+    .oak-creek__img {
+        max-height: 300px;
+    }
+
     
 
 
@@ -767,6 +782,10 @@ img {
 
     #footer {
         padding-top: 0;
+    }
+
+    .oak-creek__img {
+        max-height: 350px;
     }
 
     

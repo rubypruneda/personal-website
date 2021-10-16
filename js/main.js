@@ -129,7 +129,7 @@ linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio));
 const sr = ScrollReveal({
     distance: '30px',
     duration: 1800,
-    reset: true,
+    reset: false,
 });
 
 sr.reveal(`.about__data, .code__img, .experience__content`, {
